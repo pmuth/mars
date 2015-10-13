@@ -1,0 +1,116 @@
+body {
+	background-color: #DDA35D;
+/*	background-color: #C76E42;*/
+	font-family: 'Futura', sans-serif;
+}
+
+#title {
+	width:100%;
+	height: 200px;
+	color: white;
+	text-align: center;
+	font-size: 48px;
+	font-family: 'Souvenir', serif;
+
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	height: 200px;
+
+}
+
+.child {
+
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 40px;
+		color: white;
+
+}
+
+.button {
+	position: relative;
+	width: 50%;
+	float: left;
+	text-align: center;
+	-webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.button:before{
+	content: "";
+	display: inline-block;
+	padding-top: 100%;
+}
+
+.button:active {
+	-webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+
+}
+
+.content{
+	position: absolute;
+	top: 40%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 32px;
+
+
+}
+
+#sky {
+	background-color: #D56E55;
+	color: #FBC98F;
+}
+
+#land {
+	background-color: #FBC98F;
+	color: #905B61;
+}
+
+#mountain {
+	background-color: #A07968;
+	color: #AAE9E0;
+}
+
+#makeup {
+	background-color: #DDDFED;
+	color: #D56E55;
+}
+
+#rock {
+
+		background-color: #C47749;
+	color: #B8C8D5;
+}
+
+
+
+@media (min-width: 600px) {
+
+	.button{
+		width: 33.33333333333%;
+	}
+}
+
+@media (min-width: 900px) {
+
+	.button{
+		width: 25%;
+	}
+}

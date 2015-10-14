@@ -120,6 +120,14 @@ body {
 
 @media (min-width: 600px) {
 
+	.child2	 {
+		font-size: 32px;
+	}
+
+	#title {
+		font-size: 48px;
+	}
+
 	.button{
 		width: 33.33333333333%;
 	}

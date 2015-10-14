@@ -68,7 +68,7 @@ body {
 	right: 0;
 	display: table-cell;
 	vertical-align: middle;
-	font-size: 32px;
+	font-size: 36px;
 
 }
 
@@ -112,6 +112,10 @@ body {
 }
 
 @media (min-width: 900px) {
+
+	.content {
+		font-size: 28px;
+	}
 
 	.button{
 		width: 25%;

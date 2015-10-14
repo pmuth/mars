@@ -36,7 +36,7 @@ body {
 
 .button {
 	position: relative;
-	width: 65%;
+	width: 50%;
 	float: left;
 	text-align: center;
 	-webkit-transition: 0.3s ease-in-out;
@@ -52,11 +52,11 @@ body {
 }
 
 .button:active {
-	-webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
+	-webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    -o-transform: scale(0.65);
+    -ms-transform: scale(0.65);
+    transform: scale(0.65);
 
 }
 

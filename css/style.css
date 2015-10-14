@@ -70,12 +70,15 @@ body {
 	vertical-align: middle;
 	font-size: 32px;
 
-
 }
 
 #sky {
 	background-color: #D56E55;
 	color: #FBC98F;
+}
+
+#inverseSky {
+	background-color: #FBC98F;
 }
 
 #land {
